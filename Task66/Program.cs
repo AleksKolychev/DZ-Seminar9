@@ -9,7 +9,7 @@ int sum(int a, int b)
 }
 Console.Clear();
 Console.Write("Введите 1-е число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите 2-е число: ");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(sum(a, b));
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(sum(m, n));
